@@ -1,0 +1,53 @@
+.body {
+    display: flex;
+}
+
+.header {
+    background-color: #4560C7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+img{
+    flex-shrink: 0;
+    height: 80px;
+    padding-left: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.hello {
+
+}
+
+.info {
+    
+}
+
+.quote {
+
+}
+
+.email {
+    
+}
+
+.footer {
+
+}
