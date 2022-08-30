@@ -7,10 +7,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px;
+    padding: 40px 80px;
 }
 
-img{
+.header img {
     flex-shrink: 0;
     height: 80px;
     padding-left: 16px;
@@ -30,10 +30,43 @@ li {
 a {
     text-decoration: none;
     color: #eeeeee;
+    font-size: larger;
 }
 
 .hello {
+    background-color: #4560C7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 80px;
+    gap: 20px;
+}
 
+.greeting {
+    flex: 0 0 400px;
+    height: 260px;
+    max-width: 400;
+    color: white;
+}
+
+.greeting h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.greeting p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.greeting button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.hello img {
+    flex: 0 0 400px;
+    max-width: 400px;
 }
 
 .info {
